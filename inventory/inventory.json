@@ -1,0 +1,1172 @@
+{
+  "generatedAt": "2026-10-22T11:48:18.399Z",
+  "selected": [
+    {
+      "id": "expand-uae-square",
+      "name": "Expand Your Business to the UAE",
+      "format": "Square",
+      "category": "Business setup",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "1:2349",
+        "frameName": "v1"
+      },
+      "reference": "inventory/refs/expand-uae-square.png",
+      "thumbnail": "public/thumbs/expand-uae-square.webp",
+      "size": "1080×1080",
+      "editableTextLayers": 9,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Inter 400",
+        "Lora 400",
+        "Inter 500",
+        "Inter 600"
+      ],
+      "layers": 20,
+      "sourceVectors": 36,
+      "complexity": "Medium",
+      "flattenedGraphics": 5,
+      "glass": true,
+      "parityMismatchPercent": 1.07,
+      "limitations": [
+        "5 small graphics (\"Footer icon\", \"Icon · Company Formation\", \"Icon · Banking Assistance\", …) are single pictures: they move and resize, but their parts can't be edited."
+      ],
+      "status": "Selected",
+      "reason": "Family: campaign. 9 text layers and 2 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "expand-uae-story",
+      "name": "Expand Your Business to the UAE",
+      "format": "Story",
+      "category": "Business setup",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "1:2286",
+        "frameName": "Instagram story - 53"
+      },
+      "reference": "inventory/refs/expand-uae-story.png",
+      "thumbnail": "public/thumbs/expand-uae-story.webp",
+      "size": "1080×1920",
+      "editableTextLayers": 9,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Inter 400",
+        "Lora 400",
+        "Inter 500",
+        "Inter 600"
+      ],
+      "layers": 25,
+      "sourceVectors": 36,
+      "complexity": "Medium",
+      "flattenedGraphics": 1,
+      "glass": true,
+      "parityMismatchPercent": 0.8,
+      "limitations": [
+        "1 small graphic (\"Footer icon\") is a single picture: it move and resize, but its parts can't be edited.",
+        "Frosted-glass cards use a blurred-backdrop approximation of Figma’s glass effect, so the blur can differ slightly from the original."
+      ],
+      "status": "Selected",
+      "reason": "Family: campaign. 9 text layers and 2 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "one-partner-story",
+      "name": "One Partner. 15+ Global Jurisdictions",
+      "format": "Story",
+      "category": "Campaign",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "1:2505",
+        "frameName": "Instagram story - 57"
+      },
+      "reference": "inventory/refs/one-partner-story.png",
+      "thumbnail": "public/thumbs/one-partner-story.webp",
+      "size": "1080×1920",
+      "editableTextLayers": 9,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Inter 400",
+        "Lora 400",
+        "Inter 500",
+        "Inter 600"
+      ],
+      "layers": 24,
+      "sourceVectors": 38,
+      "complexity": "Medium",
+      "flattenedGraphics": 1,
+      "glass": true,
+      "parityMismatchPercent": 1.06,
+      "limitations": [
+        "1 small graphic (\"Footer icon\") is a single picture: it move and resize, but its parts can't be edited.",
+        "Frosted-glass cards use a blurred-backdrop approximation of Figma’s glass effect, so the blur can differ slightly from the original."
+      ],
+      "status": "Selected",
+      "reason": "Family: campaign. 9 text layers and 2 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "one-partner-link",
+      "name": "One Partner. 15+ Global Jurisdictions",
+      "format": "Link post",
+      "category": "Campaign",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "1:2632",
+        "frameName": "1.91:1 (1)"
+      },
+      "reference": "inventory/refs/one-partner-link.png",
+      "thumbnail": "public/thumbs/one-partner-link.webp",
+      "size": "1080×566",
+      "editableTextLayers": 9,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Inter 400",
+        "Lora 400",
+        "Inter 500",
+        "Inter 600"
+      ],
+      "layers": 23,
+      "sourceVectors": 41,
+      "complexity": "Medium",
+      "flattenedGraphics": 5,
+      "glass": true,
+      "parityMismatchPercent": 2.45,
+      "limitations": [
+        "5 small graphics (\"Footer icon\", \"Icon\", \"Icon\", …) are single pictures: they move and resize, but their parts can't be edited."
+      ],
+      "status": "Selected",
+      "reason": "Family: campaign. 9 text layers and 2 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "growth-opportunity-story",
+      "name": "Don't Miss Your Next Growth Opportunity",
+      "format": "Story",
+      "category": "Promotion",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "1:2698",
+        "frameName": "Instagram story - 54"
+      },
+      "reference": "inventory/refs/growth-opportunity-story.png",
+      "thumbnail": "public/thumbs/growth-opportunity-story.webp",
+      "size": "1080×1920",
+      "editableTextLayers": 13,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Inter 400",
+        "Lora 400",
+        "Inter 500",
+        "Inter 600"
+      ],
+      "layers": 29,
+      "sourceVectors": 52,
+      "complexity": "Medium",
+      "flattenedGraphics": 5,
+      "glass": true,
+      "parityMismatchPercent": 3.38,
+      "limitations": [
+        "5 small graphics (\"Footer icon\", \"Icon · 15+\", \"Icon · AI-powered\", …) are single pictures: they move and resize, but their parts can't be edited."
+      ],
+      "status": "Selected",
+      "reason": "Family: campaign. 13 text layers and 2 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "growth-opportunity-square",
+      "name": "Don't Miss Your Next Growth Opportunity",
+      "format": "Square",
+      "category": "Promotion",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "1:2926",
+        "frameName": "v1"
+      },
+      "reference": "inventory/refs/growth-opportunity-square.png",
+      "thumbnail": "public/thumbs/growth-opportunity-square.webp",
+      "size": "1080×1080",
+      "editableTextLayers": 9,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Inter 400",
+        "Lora 400",
+        "Inter 500",
+        "Inter 600"
+      ],
+      "layers": 24,
+      "sourceVectors": 48,
+      "complexity": "Medium",
+      "flattenedGraphics": 1,
+      "glass": true,
+      "parityMismatchPercent": 2.75,
+      "limitations": [
+        "1 small graphic (\"Footer icon\") is a single picture: it move and resize, but its parts can't be edited.",
+        "Frosted-glass cards use a blurred-backdrop approximation of Figma’s glass effect, so the blur can differ slightly from the original."
+      ],
+      "status": "Selected",
+      "reason": "Family: campaign. 9 text layers and 2 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "trusted-750-story",
+      "name": "Trusted by 750+ Businesses",
+      "format": "Story",
+      "category": "Campaign",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "1:2764",
+        "frameName": "Instagram story - 55"
+      },
+      "reference": "inventory/refs/trusted-750-story.png",
+      "thumbnail": "public/thumbs/trusted-750-story.webp",
+      "size": "1080×1920",
+      "editableTextLayers": 10,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Inter 400",
+        "Inter 500",
+        "Lora 400",
+        "Inter 600"
+      ],
+      "layers": 25,
+      "sourceVectors": 34,
+      "complexity": "Medium",
+      "flattenedGraphics": 1,
+      "glass": true,
+      "parityMismatchPercent": 0.73,
+      "limitations": [
+        "1 small graphic (\"Footer icon\") is a single picture: it move and resize, but its parts can't be edited.",
+        "Frosted-glass cards use a blurred-backdrop approximation of Figma’s glass effect, so the blur can differ slightly from the original."
+      ],
+      "status": "Selected",
+      "reason": "Family: campaign. 10 text layers and 2 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "trusted-750-link",
+      "name": "Trusted by 750+ Businesses",
+      "format": "Link post",
+      "category": "Campaign",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "1:3224",
+        "frameName": "1.91:1 (1)"
+      },
+      "reference": "inventory/refs/trusted-750-link.png",
+      "thumbnail": "public/thumbs/trusted-750-link.webp",
+      "size": "1080×566",
+      "editableTextLayers": 9,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Lora 400",
+        "Inter 400",
+        "Inter 500",
+        "Inter 600"
+      ],
+      "layers": 22,
+      "sourceVectors": 37,
+      "complexity": "Medium",
+      "flattenedGraphics": 1,
+      "glass": false,
+      "parityMismatchPercent": 1.58,
+      "limitations": [
+        "1 small graphic (\"Footer icon\") is a single picture: it move and resize, but its parts can't be edited."
+      ],
+      "status": "Selected",
+      "reason": "Family: campaign. 9 text layers and 2 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "start-aed-4888-story",
+      "name": "Start Your UAE Business from AED 4,888",
+      "format": "Story",
+      "category": "Promotion",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "1:2854",
+        "frameName": "Instagram story - 56"
+      },
+      "reference": "inventory/refs/start-aed-4888-story.png",
+      "thumbnail": "public/thumbs/start-aed-4888-story.webp",
+      "size": "1080×1920",
+      "editableTextLayers": 13,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Inter 400",
+        "Lora 400",
+        "Inter 500",
+        "Inter 600"
+      ],
+      "layers": 29,
+      "sourceVectors": 35,
+      "complexity": "Medium",
+      "flattenedGraphics": 5,
+      "glass": true,
+      "parityMismatchPercent": 0.69,
+      "limitations": [
+        "5 small graphics (\"Footer icon\", \"Icon · Transparent\", \"Icon · Hassle-Free\", …) are single pictures: they move and resize, but their parts can't be edited."
+      ],
+      "status": "Selected",
+      "reason": "Family: campaign. 13 text layers and 2 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "start-aed-4888-square",
+      "name": "Start Your UAE Business from AED 4,888",
+      "format": "Square",
+      "category": "Promotion",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "1:3091",
+        "frameName": "v1"
+      },
+      "reference": "inventory/refs/start-aed-4888-square.png",
+      "thumbnail": "public/thumbs/start-aed-4888-square.webp",
+      "size": "1080×1080",
+      "editableTextLayers": 9,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Inter 400",
+        "Lora 400",
+        "Inter 500",
+        "Inter 600"
+      ],
+      "layers": 24,
+      "sourceVectors": 31,
+      "complexity": "Medium",
+      "flattenedGraphics": 1,
+      "glass": true,
+      "parityMismatchPercent": 0.9,
+      "limitations": [
+        "1 small graphic (\"Footer icon\") is a single picture: it move and resize, but its parts can't be edited.",
+        "Frosted-glass cards use a blurred-backdrop approximation of Figma’s glass effect, so the blur can differ slightly from the original."
+      ],
+      "status": "Selected",
+      "reason": "Family: campaign. 9 text layers and 2 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "sales-marathon",
+      "name": "Sales Marathon 2025",
+      "format": "Portrait",
+      "category": "Event",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "4:1956",
+        "frameName": "Frame 1597885888"
+      },
+      "reference": "inventory/refs/sales-marathon.png",
+      "thumbnail": "public/thumbs/sales-marathon.webp",
+      "size": "1080×1350",
+      "editableTextLayers": 11,
+      "imageLayers": 6,
+      "replaceablePhotos": 2,
+      "hasLogo": true,
+      "hasFooter": false,
+      "fonts": [
+        "Lora 400",
+        "Inter 600",
+        "Inter 500",
+        "Inter 700"
+      ],
+      "layers": 27,
+      "sourceVectors": 15,
+      "complexity": "Medium",
+      "flattenedGraphics": 0,
+      "glass": false,
+      "parityMismatchPercent": 3.03,
+      "limitations": [],
+      "status": "Selected",
+      "reason": "Family: standalone. 11 text layers and 6 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "business-setup-simplified",
+      "name": "Business Setup. Simplified.",
+      "format": "Portrait",
+      "category": "Business setup",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "4:782",
+        "frameName": "DIR"
+      },
+      "reference": "inventory/refs/business-setup-simplified.png",
+      "thumbnail": "public/thumbs/business-setup-simplified.webp",
+      "size": "1080×1350",
+      "editableTextLayers": 6,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Inter 500",
+        "Lora 400",
+        "Inter 600"
+      ],
+      "layers": 13,
+      "sourceVectors": 841,
+      "complexity": "Medium",
+      "flattenedGraphics": 1,
+      "glass": false,
+      "parityMismatchPercent": 0.92,
+      "limitations": [
+        "1 small graphic (\"Illustration\") is a single picture: it move and resize, but its parts can't be edited."
+      ],
+      "status": "Selected",
+      "reason": "Family: standalone. 6 text layers and 1 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "flag-day-skyline",
+      "name": "UAE Annual Flag Day",
+      "format": "Portrait",
+      "category": "Announcement",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "5:5592",
+        "frameName": "5"
+      },
+      "reference": "inventory/refs/flag-day-skyline.png",
+      "thumbnail": "public/thumbs/flag-day-skyline.webp",
+      "size": "1080×1350",
+      "editableTextLayers": 7,
+      "imageLayers": 7,
+      "replaceablePhotos": 4,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Lora 400",
+        "Inter 400",
+        "Inter 500",
+        "Inter 700"
+      ],
+      "layers": 22,
+      "sourceVectors": 15,
+      "complexity": "Medium",
+      "flattenedGraphics": 1,
+      "glass": false,
+      "parityMismatchPercent": 1.53,
+      "limitations": [
+        "1 small graphic (\"Illustration\") is a single picture: it move and resize, but its parts can't be edited.",
+        "The \"layer blur\" effect is not reproduced."
+      ],
+      "status": "Selected",
+      "reason": "Family: skyline. 7 text layers and 7 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "flag-day-landmark",
+      "name": "13th UAE Annual Flag Day",
+      "format": "Portrait",
+      "category": "Announcement",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "5:5519",
+        "frameName": "3"
+      },
+      "reference": "inventory/refs/flag-day-landmark.png",
+      "thumbnail": "public/thumbs/flag-day-landmark.webp",
+      "size": "1080×1350",
+      "editableTextLayers": 5,
+      "imageLayers": 7,
+      "replaceablePhotos": 4,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Lora 400",
+        "Inter 400",
+        "Inter 500"
+      ],
+      "layers": 20,
+      "sourceVectors": 15,
+      "complexity": "Medium",
+      "flattenedGraphics": 1,
+      "glass": false,
+      "parityMismatchPercent": 1.12,
+      "limitations": [
+        "1 small graphic (\"Illustration\") is a single picture: it move and resize, but its parts can't be edited.",
+        "The \"layer blur\" effect is not reproduced."
+      ],
+      "status": "Selected",
+      "reason": "Family: skyline. 5 text layers and 7 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "japan-signpost-light",
+      "name": "Business Opportunities with this Partnership",
+      "format": "Portrait",
+      "category": "Partnership",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "5:5907",
+        "frameName": "UAE vs japan V2 Sl 2"
+      },
+      "reference": "inventory/refs/japan-signpost-light.png",
+      "thumbnail": "public/thumbs/japan-signpost-light.webp",
+      "size": "1080×1350",
+      "editableTextLayers": 4,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Lora 400",
+        "Inter 400"
+      ],
+      "layers": 8,
+      "sourceVectors": 11,
+      "complexity": "Simple",
+      "flattenedGraphics": 0,
+      "glass": false,
+      "parityMismatchPercent": 0.48,
+      "limitations": [],
+      "status": "Selected",
+      "reason": "Family: japan. 4 text layers and 1 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "japan-cover-dark",
+      "name": "UAE x Japan: Deepen AI Collaboration",
+      "format": "Portrait",
+      "category": "Partnership",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "5:5754",
+        "frameName": "UAE and Japan"
+      },
+      "reference": "inventory/refs/japan-cover-dark.png",
+      "thumbnail": "public/thumbs/japan-cover-dark.webp",
+      "size": "1080×1350",
+      "editableTextLayers": 7,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Lora 400",
+        "Inter 600",
+        "Inter 400"
+      ],
+      "layers": 12,
+      "sourceVectors": 13,
+      "complexity": "Simple",
+      "flattenedGraphics": 0,
+      "glass": true,
+      "parityMismatchPercent": 0.82,
+      "limitations": [
+        "Frosted-glass cards use a blurred-backdrop approximation of Figma’s glass effect, so the blur can differ slightly from the original."
+      ],
+      "status": "Selected",
+      "reason": "Family: japan. 7 text layers and 1 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "japan-opportunities-dark",
+      "name": "Business Opportunities with this Partnership",
+      "format": "Portrait",
+      "category": "Partnership",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "5:5930",
+        "frameName": "UAE vs japan V1 Sl 2"
+      },
+      "reference": "inventory/refs/japan-opportunities-dark.png",
+      "thumbnail": "public/thumbs/japan-opportunities-dark.webp",
+      "size": "1080×1350",
+      "editableTextLayers": 4,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Lora 400",
+        "Inter 400"
+      ],
+      "layers": 8,
+      "sourceVectors": 11,
+      "complexity": "Simple",
+      "flattenedGraphics": 0,
+      "glass": false,
+      "parityMismatchPercent": 0.39,
+      "limitations": [],
+      "status": "Selected",
+      "reason": "Family: japan. 4 text layers and 1 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "japan-ai-handshake-dark",
+      "name": "AI Is Creating New Possibilities",
+      "format": "Portrait",
+      "category": "Partnership",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "5:6181",
+        "frameName": "UAE vs japan V1 Sl 3"
+      },
+      "reference": "inventory/refs/japan-ai-handshake-dark.png",
+      "thumbnail": "public/thumbs/japan-ai-handshake-dark.webp",
+      "size": "1080×1350",
+      "editableTextLayers": 6,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": true,
+      "fonts": [
+        "Lora 400",
+        "Inter 600",
+        "Inter 400"
+      ],
+      "layers": 11,
+      "sourceVectors": 11,
+      "complexity": "Simple",
+      "flattenedGraphics": 0,
+      "glass": true,
+      "parityMismatchPercent": 0.98,
+      "limitations": [
+        "Frosted-glass cards use a blurred-backdrop approximation of Figma’s glass effect, so the blur can differ slightly from the original."
+      ],
+      "status": "Selected",
+      "reason": "Family: japan. 6 text layers and 1 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "japan-cover-light",
+      "name": "UAE x Japan: Deepen AI Collaboration",
+      "format": "Portrait",
+      "category": "Partnership",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "5:6303",
+        "frameName": "UAE and Japan"
+      },
+      "reference": "inventory/refs/japan-cover-light.png",
+      "thumbnail": "public/thumbs/japan-cover-light.webp",
+      "size": "1080×1350",
+      "editableTextLayers": 4,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": false,
+      "fonts": [
+        "Lora 400",
+        "Inter 400",
+        "Inter 600"
+      ],
+      "layers": 8,
+      "sourceVectors": 11,
+      "complexity": "Simple",
+      "flattenedGraphics": 0,
+      "glass": true,
+      "parityMismatchPercent": 0.58,
+      "limitations": [
+        "Frosted-glass cards use a blurred-backdrop approximation of Figma’s glass effect, so the blur can differ slightly from the original."
+      ],
+      "status": "Selected",
+      "reason": "Family: japan. 4 text layers and 1 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    },
+    {
+      "id": "japan-cards-dark",
+      "name": "Opportunity for Tech Businesses",
+      "format": "Portrait",
+      "category": "Partnership",
+      "figma": {
+        "fileKey": "s2yQZ85TPB02pKuvfwTCgk",
+        "nodeId": "5:6092",
+        "frameName": "UAE vs japan"
+      },
+      "reference": "inventory/refs/japan-cards-dark.png",
+      "thumbnail": "public/thumbs/japan-cards-dark.webp",
+      "size": "1080×1350",
+      "editableTextLayers": 7,
+      "imageLayers": 1,
+      "replaceablePhotos": 1,
+      "hasLogo": true,
+      "hasFooter": false,
+      "fonts": [
+        "Lora 400",
+        "Inter 600",
+        "Inter 500"
+      ],
+      "layers": 19,
+      "sourceVectors": 26,
+      "complexity": "Medium",
+      "flattenedGraphics": 0,
+      "glass": false,
+      "parityMismatchPercent": 0.63,
+      "limitations": [],
+      "status": "Selected",
+      "reason": "Family: japan. 7 text layers and 1 image fill(s) in the source, separate logo/footer, Inter/Lora only."
+    }
+  ],
+  "notSelected": [
+    {
+      "nodeId": "1:243",
+      "name": "UAE SUBSIDIARY MAINLAND DUB",
+      "size": "800×1518",
+      "section": null,
+      "family": "checklist",
+      "text": 31,
+      "images": 0,
+      "vectors": 199,
+      "status": "Not selected",
+      "reason": "Long form/checklist document (800×1518), not a social poster. PRD: not every frame is an eligible template."
+    },
+    {
+      "nodeId": "1:469",
+      "name": "UAE Independent MAINLAND DUB",
+      "size": "800×1711",
+      "section": null,
+      "family": "checklist",
+      "text": 34,
+      "images": 0,
+      "vectors": 200,
+      "status": "Not selected",
+      "reason": "Long form/checklist document (800×1711), not a social poster. PRD: not every frame is an eligible template."
+    },
+    {
+      "nodeId": "1:695",
+      "name": "Abu dhabi Independent MAINLAND DUB",
+      "size": "800×1711",
+      "section": null,
+      "family": "checklist",
+      "text": 34,
+      "images": 0,
+      "vectors": 200,
+      "status": "Not selected",
+      "reason": "Long form/checklist document (800×1711), not a social poster. PRD: not every frame is an eligible template."
+    },
+    {
+      "nodeId": "1:1182",
+      "name": "Jersey - fund set up ",
+      "size": "920×1497",
+      "section": null,
+      "family": "checklist",
+      "text": 34,
+      "images": 0,
+      "vectors": 199,
+      "status": "Not selected",
+      "reason": "Long form/checklist document (920×1497), not a social poster. PRD: not every frame is an eligible template."
+    },
+    {
+      "nodeId": "1:1424",
+      "name": "Jersey - Private fund Set up",
+      "size": "920×1497",
+      "section": null,
+      "family": "checklist",
+      "text": 34,
+      "images": 0,
+      "vectors": 199,
+      "status": "Not selected",
+      "reason": "Long form/checklist document (920×1497), not a social poster. PRD: not every frame is an eligible template."
+    },
+    {
+      "nodeId": "1:1793",
+      "name": "ADGM Tech Compnay - Corporate Shareholder",
+      "size": "868×1707",
+      "section": null,
+      "family": "checklist",
+      "text": 35,
+      "images": 0,
+      "vectors": 199,
+      "status": "Not selected",
+      "reason": "Long form/checklist document (868×1707), not a social poster. PRD: not every frame is an eligible template."
+    },
+    {
+      "nodeId": "1:2439",
+      "name": "1.91:1 (1)",
+      "size": "1080×566",
+      "section": null,
+      "family": "campaign",
+      "text": 9,
+      "images": 2,
+      "vectors": 39,
+      "status": "Not selected",
+      "reason": "Same campaign is already represented by another size. Max two sizes per campaign, so all three ratios are covered without near-duplicates."
+    },
+    {
+      "nodeId": "1:2568",
+      "name": "v1",
+      "size": "1080×1080",
+      "section": null,
+      "family": "campaign",
+      "text": 9,
+      "images": 2,
+      "vectors": 38,
+      "status": "Not selected",
+      "reason": "Same campaign is already represented by another size. Max two sizes per campaign, so all three ratios are covered without near-duplicates."
+    },
+    {
+      "nodeId": "1:3028",
+      "name": "v1",
+      "size": "1080×1080",
+      "section": null,
+      "family": "campaign",
+      "text": 10,
+      "images": 2,
+      "vectors": 34,
+      "status": "Not selected",
+      "reason": "Same campaign is already represented by another size. Max two sizes per campaign, so all three ratios are covered without near-duplicates."
+    },
+    {
+      "nodeId": "1:3173",
+      "name": "1.91:1 (1)",
+      "size": "1080×566",
+      "section": null,
+      "family": "campaign",
+      "text": 9,
+      "images": 2,
+      "vectors": 16,
+      "status": "Not selected",
+      "reason": "Same campaign is already represented by another size. Max two sizes per campaign, so all three ratios are covered without near-duplicates."
+    },
+    {
+      "nodeId": "1:3287",
+      "name": "1.91:1 (1)",
+      "size": "1080×566",
+      "section": null,
+      "family": "campaign",
+      "text": 9,
+      "images": 2,
+      "vectors": 34,
+      "status": "Not selected",
+      "reason": "Same campaign is already represented by another size. Max two sizes per campaign, so all three ratios are covered without near-duplicates."
+    },
+    {
+      "nodeId": "5:2015",
+      "name": "20",
+      "size": "1080×1350",
+      "section": null,
+      "family": "skyline",
+      "text": 5,
+      "images": 6,
+      "vectors": 12,
+      "status": "Not selected",
+      "reason": "Near-identical variant of a selected Flag Day / skyline layout (same structure, different artwork)."
+    },
+    {
+      "nodeId": "5:2052",
+      "name": "21",
+      "size": "1080×1350",
+      "section": null,
+      "family": "skyline",
+      "text": 4,
+      "images": 4,
+      "vectors": 12,
+      "status": "Not selected",
+      "reason": "Near-identical variant of a selected Flag Day / skyline layout (same structure, different artwork)."
+    },
+    {
+      "nodeId": "5:2086",
+      "name": "22",
+      "size": "1080×1350",
+      "section": null,
+      "family": "skyline",
+      "text": 5,
+      "images": 8,
+      "vectors": 822,
+      "status": "Not selected",
+      "reason": "Near-identical variant of a selected Flag Day / skyline layout (same structure, different artwork)."
+    },
+    {
+      "nodeId": "5:2942",
+      "name": "23",
+      "size": "1080×1350",
+      "section": null,
+      "family": "skyline",
+      "text": 5,
+      "images": 8,
+      "vectors": 822,
+      "status": "Not selected",
+      "reason": "Near-identical variant of a selected Flag Day / skyline layout (same structure, different artwork)."
+    },
+    {
+      "nodeId": "5:3800",
+      "name": "24",
+      "size": "1080×1350",
+      "section": null,
+      "family": "skyline",
+      "text": 5,
+      "images": 8,
+      "vectors": 822,
+      "status": "Not selected",
+      "reason": "Near-identical variant of a selected Flag Day / skyline layout (same structure, different artwork)."
+    },
+    {
+      "nodeId": "5:4655",
+      "name": "9",
+      "size": "1080×1350",
+      "section": null,
+      "family": "skyline",
+      "text": 5,
+      "images": 7,
+      "vectors": 828,
+      "status": "Not selected",
+      "reason": "Near-identical variant of a selected Flag Day / skyline layout (same structure, different artwork)."
+    },
+    {
+      "nodeId": "5:5555",
+      "name": "4",
+      "size": "1080×1350",
+      "section": null,
+      "family": "skyline",
+      "text": 6,
+      "images": 7,
+      "vectors": 15,
+      "status": "Not selected",
+      "reason": "Near-identical variant of a selected Flag Day / skyline layout (same structure, different artwork)."
+    },
+    {
+      "nodeId": "5:5630",
+      "name": "2",
+      "size": "1080×1350",
+      "section": null,
+      "family": "skyline",
+      "text": 5,
+      "images": 8,
+      "vectors": 12,
+      "status": "Not selected",
+      "reason": "Near-identical variant of a selected Flag Day / skyline layout (same structure, different artwork)."
+    },
+    {
+      "nodeId": "5:5669",
+      "name": "1",
+      "size": "1080×1350",
+      "section": null,
+      "family": "skyline",
+      "text": 5,
+      "images": 4,
+      "vectors": 13,
+      "status": "Not selected",
+      "reason": "Near-identical variant of a selected Flag Day / skyline layout (same structure, different artwork)."
+    },
+    {
+      "nodeId": "5:5724",
+      "name": "UAE and Japan V2",
+      "size": "1080×1350",
+      "section": "UAE vs Japan",
+      "family": "japan",
+      "text": 7,
+      "images": 1,
+      "vectors": 13,
+      "status": "Not selected",
+      "reason": "Alternate artwork/colour variant of a selected UAE × Japan layout."
+    },
+    {
+      "nodeId": "5:5784",
+      "name": "UAE and Japan",
+      "size": "1080×1350",
+      "section": "UAE vs Japan",
+      "family": "japan",
+      "text": 7,
+      "images": 1,
+      "vectors": 13,
+      "status": "Not selected",
+      "reason": "Alternate artwork/colour variant of a selected UAE × Japan layout."
+    },
+    {
+      "nodeId": "5:5815",
+      "name": "UAE and Japan",
+      "size": "1080×1350",
+      "section": "UAE vs Japan",
+      "family": "japan",
+      "text": 7,
+      "images": 1,
+      "vectors": 13,
+      "status": "Not selected",
+      "reason": "Alternate artwork/colour variant of a selected UAE × Japan layout."
+    },
+    {
+      "nodeId": "5:5846",
+      "name": "UAE and Japan",
+      "size": "1080×1350",
+      "section": "UAE vs Japan",
+      "family": "japan",
+      "text": 7,
+      "images": 1,
+      "vectors": 13,
+      "status": "Not selected",
+      "reason": "Alternate artwork/colour variant of a selected UAE × Japan layout."
+    },
+    {
+      "nodeId": "5:5877",
+      "name": "UAE and Japan",
+      "size": "1080×1350",
+      "section": "UAE vs Japan",
+      "family": "japan",
+      "text": 7,
+      "images": 1,
+      "vectors": 13,
+      "status": "Not selected",
+      "reason": "Alternate artwork/colour variant of a selected UAE × Japan layout."
+    },
+    {
+      "nodeId": "5:5953",
+      "name": "UAE vs japan V1 Sl 6",
+      "size": "1080×1350",
+      "section": "UAE vs Japan",
+      "family": "japan",
+      "text": 4,
+      "images": 1,
+      "vectors": 11,
+      "status": "Not selected",
+      "reason": "Alternate artwork/colour variant of a selected UAE × Japan layout."
+    },
+    {
+      "nodeId": "5:5976",
+      "name": "UAE vs japan V1 Sl 9",
+      "size": "1080×1350",
+      "section": "UAE vs Japan",
+      "family": "japan",
+      "text": 4,
+      "images": 1,
+      "vectors": 11,
+      "status": "Not selected",
+      "reason": "Alternate artwork/colour variant of a selected UAE × Japan layout."
+    },
+    {
+      "nodeId": "5:5999",
+      "name": "UAE vs japan V1 Sl 11",
+      "size": "1080×1350",
+      "section": "UAE vs Japan",
+      "family": "japan",
+      "text": 4,
+      "images": 1,
+      "vectors": 11,
+      "status": "Not selected",
+      "reason": "Alternate artwork/colour variant of a selected UAE × Japan layout."
+    },
+    {
+      "nodeId": "5:6022",
+      "name": "UAE vs japan V1 Sl 12",
+      "size": "1080×1350",
+      "section": "UAE vs Japan",
+      "family": "japan",
+      "text": 6,
+      "images": 1,
+      "vectors": 11,
+      "status": "Not selected",
+      "reason": "Alternate artwork/colour variant of a selected UAE × Japan layout."
+    },
+    {
+      "nodeId": "5:6048",
+      "name": "UAE vs japan",
+      "size": "1080×1350",
+      "section": "UAE vs Japan",
+      "family": "japan",
+      "text": 8,
+      "images": 1,
+      "vectors": 20,
+      "status": "Not selected",
+      "reason": "Alternate artwork/colour variant of a selected UAE × Japan layout."
+    },
+    {
+      "nodeId": "5:6128",
+      "name": "Frame 2147229194",
+      "size": "297×480",
+      "section": "UAE vs Japan",
+      "family": "component",
+      "text": 2,
+      "images": 0,
+      "vectors": 4,
+      "status": "Not selected",
+      "reason": "Reusable info-card component (297×480), not a poster."
+    },
+    {
+      "nodeId": "5:6139",
+      "name": "Frame 2147229195",
+      "size": "296×480",
+      "section": "UAE vs Japan",
+      "family": "component",
+      "text": 2,
+      "images": 0,
+      "vectors": 5,
+      "status": "Not selected",
+      "reason": "Reusable info-card component (296×480), not a poster."
+    },
+    {
+      "nodeId": "5:6150",
+      "name": "Frame 2147229196",
+      "size": "297×480",
+      "section": "UAE vs Japan",
+      "family": "component",
+      "text": 2,
+      "images": 0,
+      "vectors": 8,
+      "status": "Not selected",
+      "reason": "Reusable info-card component (297×480), not a poster."
+    },
+    {
+      "nodeId": "5:6155",
+      "name": "UAE vs japan V2 Sl 3",
+      "size": "1080×1350",
+      "section": "UAE vs Japan",
+      "family": "japan",
+      "text": 6,
+      "images": 1,
+      "vectors": 11,
+      "status": "Not selected",
+      "reason": "Alternate artwork/colour variant of a selected UAE × Japan layout."
+    },
+    {
+      "nodeId": "5:6207",
+      "name": "UAE vs japan V1 Sl 4",
+      "size": "1080×1350",
+      "section": "UAE vs Japan",
+      "family": "japan",
+      "text": 6,
+      "images": 1,
+      "vectors": 11,
+      "status": "Not selected",
+      "reason": "Alternate artwork/colour variant of a selected UAE × Japan layout."
+    },
+    {
+      "nodeId": "5:6233",
+      "name": "UAE vs japan V1 Sl 10",
+      "size": "1080×1350",
+      "section": "UAE vs Japan",
+      "family": "japan",
+      "text": 6,
+      "images": 1,
+      "vectors": 11,
+      "status": "Not selected",
+      "reason": "Alternate artwork/colour variant of a selected UAE × Japan layout."
+    },
+    {
+      "nodeId": "5:6259",
+      "name": "UAE vs japan",
+      "size": "1080×1350",
+      "section": "UAE vs Japan",
+      "family": "japan",
+      "text": 6,
+      "images": 1,
+      "vectors": 11,
+      "status": "Not selected",
+      "reason": "Alternate artwork/colour variant of a selected UAE × Japan layout."
+    },
+    {
+      "nodeId": "5:6285",
+      "name": "UAE vs japan",
+      "size": "1080×1350",
+      "section": "UAE vs Japan",
+      "family": "japan",
+      "text": 3,
+      "images": 1,
+      "vectors": 9,
+      "status": "Not selected",
+      "reason": "Alternate artwork/colour variant of a selected UAE × Japan layout."
+    }
+  ]
+}

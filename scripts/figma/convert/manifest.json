@@ -1,0 +1,22 @@
+[
+  { "nodeId": "1:2349", "id": "expand-uae-square", "name": "Expand Your Business to the UAE", "category": "Business setup", "format": "Square", "tags": ["uae", "business-setup", "instagram", "dark"] },
+  { "nodeId": "1:2286", "id": "expand-uae-story", "name": "Expand Your Business to the UAE", "category": "Business setup", "format": "Story", "tags": ["uae", "business-setup", "story", "dark"] },
+  { "nodeId": "1:2505", "id": "one-partner-story", "name": "One Partner. 15+ Global Jurisdictions", "category": "Campaign", "format": "Story", "tags": ["jurisdictions", "campaign", "story", "dark"] },
+  { "nodeId": "1:2632", "id": "one-partner-link", "name": "One Partner. 15+ Global Jurisdictions", "category": "Campaign", "format": "Link post", "tags": ["jurisdictions", "campaign", "linkedin", "dark"] },
+  { "nodeId": "1:2698", "id": "growth-opportunity-story", "name": "Don't Miss Your Next Growth Opportunity", "category": "Promotion", "format": "Story", "tags": ["growth", "cta", "story", "dark"] },
+  { "nodeId": "1:2926", "id": "growth-opportunity-square", "name": "Don't Miss Your Next Growth Opportunity", "category": "Promotion", "format": "Square", "tags": ["growth", "cta", "instagram", "dark"] },
+  { "nodeId": "1:2764", "id": "trusted-750-story", "name": "Trusted by 750+ Businesses", "category": "Campaign", "format": "Story", "tags": ["trust", "social-proof", "story", "light"] },
+  { "nodeId": "1:3224", "id": "trusted-750-link", "name": "Trusted by 750+ Businesses", "category": "Campaign", "format": "Link post", "tags": ["trust", "social-proof", "linkedin", "light"] },
+  { "nodeId": "1:2854", "id": "start-aed-4888-story", "name": "Start Your UAE Business from AED 4,888", "category": "Promotion", "format": "Story", "tags": ["pricing", "offer", "story", "light"] },
+  { "nodeId": "1:3091", "id": "start-aed-4888-square", "name": "Start Your UAE Business from AED 4,888", "category": "Promotion", "format": "Square", "tags": ["pricing", "offer", "instagram", "light"] },
+  { "nodeId": "4:1956", "id": "sales-marathon", "name": "Sales Marathon 2025", "category": "Event", "format": "Portrait", "tags": ["event", "rewards", "announcement"] },
+  { "nodeId": "4:782", "id": "business-setup-simplified", "name": "Business Setup. Simplified.", "category": "Business setup", "format": "Portrait", "tags": ["brand", "skyline", "typography"] },
+  { "nodeId": "5:5592", "id": "flag-day-skyline", "name": "UAE Annual Flag Day", "category": "Announcement", "format": "Portrait", "tags": ["uae", "national-day", "announcement"] },
+  { "nodeId": "5:5519", "id": "flag-day-landmark", "name": "13th UAE Annual Flag Day", "category": "Announcement", "format": "Portrait", "tags": ["uae", "national-day", "announcement"] },
+  { "nodeId": "5:5907", "id": "japan-signpost-light", "name": "Business Opportunities with this Partnership", "category": "Partnership", "format": "Portrait", "tags": ["japan", "partnership", "light"] },
+  { "nodeId": "5:5754", "id": "japan-cover-dark", "name": "UAE x Japan: Deepen AI Collaboration", "category": "Partnership", "format": "Portrait", "tags": ["japan", "partnership", "cover", "dark"] },
+  { "nodeId": "5:5930", "id": "japan-opportunities-dark", "name": "Business Opportunities with this Partnership", "category": "Partnership", "format": "Portrait", "tags": ["japan", "partnership", "dark"] },
+  { "nodeId": "5:6181", "id": "japan-ai-handshake-dark", "name": "AI Is Creating New Possibilities", "category": "Partnership", "format": "Portrait", "tags": ["japan", "ai", "cta", "dark"] },
+  { "nodeId": "5:6303", "id": "japan-cover-light", "name": "UAE x Japan: Deepen AI Collaboration", "category": "Partnership", "format": "Portrait", "tags": ["japan", "partnership", "cover", "light"] },
+  { "nodeId": "5:6092", "id": "japan-cards-dark", "name": "Opportunity for Tech Businesses", "category": "Partnership", "format": "Portrait", "tags": ["japan", "cards", "comparison", "dark"] }
+]
