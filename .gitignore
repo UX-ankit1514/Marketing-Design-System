@@ -28,4 +28,4 @@ test-results/
 playwright-report/
 
 # regenerable QA renders (npm run figma:parity); results.json is kept
-inventory/parity/*.png
+**/inventory/parity/*.png

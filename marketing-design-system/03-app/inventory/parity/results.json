@@ -1,0 +1,142 @@
+{
+  "expand-uae-square": {
+    "mismatchPercent": 1.07,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:30:42.025Z"
+  },
+  "expand-uae-story": {
+    "mismatchPercent": 0.8,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:30:43.629Z"
+  },
+  "one-partner-story": {
+    "mismatchPercent": 1.06,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:30:59.737Z"
+  },
+  "one-partner-link": {
+    "mismatchPercent": 2.45,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:30:58.292Z"
+  },
+  "business-setup-simplified": {
+    "mismatchPercent": 0.92,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:30:40.585Z"
+  },
+  "flag-day-landmark": {
+    "mismatchPercent": 1.12,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:30:44.890Z"
+  },
+  "flag-day-skyline": {
+    "mismatchPercent": 1.53,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:30:46.135Z"
+  },
+  "growth-opportunity-square": {
+    "mismatchPercent": 2.75,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:30:47.487Z"
+  },
+  "growth-opportunity-story": {
+    "mismatchPercent": 3.38,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:30:49.112Z"
+  },
+  "japan-ai-handshake-dark": {
+    "mismatchPercent": 0.98,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:30:50.429Z"
+  },
+  "japan-cards-dark": {
+    "mismatchPercent": 0.63,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:30:51.749Z"
+  },
+  "japan-cover-dark": {
+    "mismatchPercent": 0.82,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:30:53.126Z"
+  },
+  "japan-cover-light": {
+    "mismatchPercent": 0.58,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:30:54.476Z"
+  },
+  "japan-opportunities-dark": {
+    "mismatchPercent": 0.39,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:30:55.777Z"
+  },
+  "japan-signpost-light": {
+    "mismatchPercent": 0.48,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:30:57.119Z"
+  },
+  "sales-marathon": {
+    "mismatchPercent": 3.03,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:31:01.086Z"
+  },
+  "start-aed-4888-square": {
+    "mismatchPercent": 0.9,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:31:02.317Z"
+  },
+  "start-aed-4888-story": {
+    "mismatchPercent": 0.69,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:31:03.816Z"
+  },
+  "trusted-750-link": {
+    "mismatchPercent": 1.58,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:31:04.942Z"
+  },
+  "trusted-750-story": {
+    "mismatchPercent": 0.73,
+    "missingFonts": "",
+    "failures": "",
+    "errors": [],
+    "at": "2026-10-22T11:31:06.372Z"
+  }
+}

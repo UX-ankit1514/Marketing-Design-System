@@ -1,0 +1,1177 @@
+[
+  {
+    "nodeId": "1:243",
+    "name": "UAE SUBSIDIARY MAINLAND DUB",
+    "type": "FRAME",
+    "w": 800,
+    "h": 1518,
+    "section": null,
+    "text": 31,
+    "images": 0,
+    "vectors": 199,
+    "hidden": 7,
+    "fonts": [
+      "Inter",
+      "mixed",
+      "Lora"
+    ],
+    "texts": [
+      "1",
+      "Company Name Options"
+    ]
+  },
+  {
+    "nodeId": "1:469",
+    "name": "UAE Independent MAINLAND DUB",
+    "type": "FRAME",
+    "w": 800,
+    "h": 1711,
+    "section": null,
+    "text": 34,
+    "images": 0,
+    "vectors": 200,
+    "hidden": 8,
+    "fonts": [
+      "Inter",
+      "mixed",
+      "Lora"
+    ],
+    "texts": [
+      "1",
+      "Company Name Options"
+    ]
+  },
+  {
+    "nodeId": "1:695",
+    "name": "Abu dhabi Independent MAINLAND DUB",
+    "type": "FRAME",
+    "w": 800,
+    "h": 1711,
+    "section": null,
+    "text": 34,
+    "images": 0,
+    "vectors": 200,
+    "hidden": 8,
+    "fonts": [
+      "Inter",
+      "mixed",
+      "Lora"
+    ],
+    "texts": [
+      "1",
+      "Company Name Options"
+    ]
+  },
+  {
+    "nodeId": "1:1182",
+    "name": "Jersey - fund set up ",
+    "type": "FRAME",
+    "w": 920,
+    "h": 1497,
+    "section": null,
+    "text": 34,
+    "images": 0,
+    "vectors": 199,
+    "hidden": 9,
+    "fonts": [
+      "Inter",
+      "Lora",
+      "mixed"
+    ],
+    "texts": [
+      "Checklist",
+      "Fund Setup in Jersey"
+    ]
+  },
+  {
+    "nodeId": "1:1424",
+    "name": "Jersey - Private fund Set up",
+    "type": "FRAME",
+    "w": 920,
+    "h": 1497,
+    "section": null,
+    "text": 34,
+    "images": 0,
+    "vectors": 199,
+    "hidden": 9,
+    "fonts": [
+      "Inter",
+      "Lora",
+      "mixed"
+    ],
+    "texts": [
+      "Checklist",
+      "Fund Setup in Jersey"
+    ]
+  },
+  {
+    "nodeId": "1:1793",
+    "name": "ADGM Tech Compnay - Corporate Shareholder",
+    "type": "FRAME",
+    "w": 868,
+    "h": 1707,
+    "section": null,
+    "text": 35,
+    "images": 0,
+    "vectors": 199,
+    "hidden": 8,
+    "fonts": [
+      "Inter",
+      "Lora",
+      "mixed"
+    ],
+    "texts": [
+      "Checklist",
+      "Business Set Up Checklist (ADGM)"
+    ]
+  },
+  {
+    "nodeId": "1:2286",
+    "name": "Instagram story - 53",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1920,
+    "section": null,
+    "text": 9,
+    "images": 2,
+    "vectors": 36,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora"
+    ],
+    "texts": [
+      "arnifi.com",
+      "Expand Your Business to the UAE"
+    ]
+  },
+  {
+    "nodeId": "1:2349",
+    "name": "v1",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1080,
+    "section": null,
+    "text": 9,
+    "images": 2,
+    "vectors": 36,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora"
+    ],
+    "texts": [
+      "arnifi.com",
+      "Expand Your Business  to the UAE"
+    ]
+  },
+  {
+    "nodeId": "1:2439",
+    "name": "1.91:1 (1)",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 566,
+    "section": null,
+    "text": 9,
+    "images": 2,
+    "vectors": 39,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora"
+    ],
+    "texts": [
+      "arnifi.com",
+      "Expand Your Business to the UAE"
+    ]
+  },
+  {
+    "nodeId": "1:2505",
+    "name": "Instagram story - 57",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1920,
+    "section": null,
+    "text": 9,
+    "images": 2,
+    "vectors": 38,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora"
+    ],
+    "texts": [
+      "arnifi.com",
+      "One Partner. 15+ Global Jurisdictions."
+    ]
+  },
+  {
+    "nodeId": "1:2568",
+    "name": "v1",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1080,
+    "section": null,
+    "text": 9,
+    "images": 2,
+    "vectors": 38,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora"
+    ],
+    "texts": [
+      "arnifi.com",
+      "One Partner. 15+ Global Jurisdictions."
+    ]
+  },
+  {
+    "nodeId": "1:2632",
+    "name": "1.91:1 (1)",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 566,
+    "section": null,
+    "text": 9,
+    "images": 2,
+    "vectors": 41,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora"
+    ],
+    "texts": [
+      "arnifi.com",
+      "One Partner. 15+ Global Jurisdictions."
+    ]
+  },
+  {
+    "nodeId": "1:2698",
+    "name": "Instagram story - 54",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1920,
+    "section": null,
+    "text": 13,
+    "images": 2,
+    "vectors": 52,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora"
+    ],
+    "texts": [
+      "arnifi.com",
+      "Don't Miss Your Next Growth Opportunity"
+    ]
+  },
+  {
+    "nodeId": "1:2764",
+    "name": "Instagram story - 55",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1920,
+    "section": null,
+    "text": 10,
+    "images": 2,
+    "vectors": 34,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora"
+    ],
+    "texts": [
+      "arnifi.com",
+      "Trusted by"
+    ]
+  },
+  {
+    "nodeId": "1:2854",
+    "name": "Instagram story - 56",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1920,
+    "section": null,
+    "text": 13,
+    "images": 2,
+    "vectors": 35,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora"
+    ],
+    "texts": [
+      "arnifi.com",
+      "Start Your UAE Business from AED 4,888"
+    ]
+  },
+  {
+    "nodeId": "1:2926",
+    "name": "v1",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1080,
+    "section": null,
+    "text": 9,
+    "images": 2,
+    "vectors": 48,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora"
+    ],
+    "texts": [
+      "arnifi.com",
+      "Don't Miss Your Next Growth Opportunity"
+    ]
+  },
+  {
+    "nodeId": "1:3028",
+    "name": "v1",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1080,
+    "section": null,
+    "text": 10,
+    "images": 2,
+    "vectors": 34,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora"
+    ],
+    "texts": [
+      "arnifi.com",
+      "Trusted by"
+    ]
+  },
+  {
+    "nodeId": "1:3091",
+    "name": "v1",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1080,
+    "section": null,
+    "text": 9,
+    "images": 2,
+    "vectors": 31,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora"
+    ],
+    "texts": [
+      "arnifi.com",
+      "Start Your UAE Business from AED 4,888"
+    ]
+  },
+  {
+    "nodeId": "1:3173",
+    "name": "1.91:1 (1)",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 566,
+    "section": null,
+    "text": 9,
+    "images": 2,
+    "vectors": 16,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora"
+    ],
+    "texts": [
+      "arnifi.com",
+      "Don't Miss Your Next Growth Opportunity"
+    ]
+  },
+  {
+    "nodeId": "1:3224",
+    "name": "1.91:1 (1)",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 566,
+    "section": null,
+    "text": 9,
+    "images": 2,
+    "vectors": 37,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "Trusted by 750+ Businesses",
+      "Trusted by Founders, Investors And Growi"
+    ]
+  },
+  {
+    "nodeId": "1:3287",
+    "name": "1.91:1 (1)",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 566,
+    "section": null,
+    "text": 9,
+    "images": 2,
+    "vectors": 34,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "Start Your UAE Business from AED 4,888",
+      "Simple pricing. Complete support."
+    ]
+  },
+  {
+    "nodeId": "4:782",
+    "name": "DIR",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": null,
+    "text": 6,
+    "images": 1,
+    "vectors": 841,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora",
+      "mixed"
+    ],
+    "texts": [
+      "Fast. Digital. Hassle-Free.",
+      "arnifi.com"
+    ]
+  },
+  {
+    "nodeId": "4:1956",
+    "name": "Frame 1597885888",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": null,
+    "text": 11,
+    "images": 6,
+    "vectors": 15,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter",
+      "mixed"
+    ],
+    "texts": [
+      "Sales Marathon 2025! ",
+      "Accelerate Sales. Score Big. Unlock Rewa"
+    ]
+  },
+  {
+    "nodeId": "5:2015",
+    "name": "20",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": null,
+    "text": 5,
+    "images": 6,
+    "vectors": 12,
+    "hidden": 1,
+    "fonts": [
+      "Lora",
+      "mixed",
+      "Inter"
+    ],
+    "texts": [
+      "Business Setup.  Simplified.",
+      "13th UAE Annual Flag Day"
+    ]
+  },
+  {
+    "nodeId": "5:2052",
+    "name": "21",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": null,
+    "text": 4,
+    "images": 4,
+    "vectors": 12,
+    "hidden": 1,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "Business Setup.  Simplified.",
+      "Fast. Digital. Hassle-Free."
+    ]
+  },
+  {
+    "nodeId": "5:2086",
+    "name": "22",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": null,
+    "text": 5,
+    "images": 8,
+    "vectors": 822,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora",
+      "mixed"
+    ],
+    "texts": [
+      "Fast. Digital. Hassle-Free.",
+      "arnifi.com"
+    ]
+  },
+  {
+    "nodeId": "5:2942",
+    "name": "23",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": null,
+    "text": 5,
+    "images": 8,
+    "vectors": 822,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora",
+      "mixed"
+    ],
+    "texts": [
+      "Fast. Digital. Hassle-Free.",
+      "arnifi.com"
+    ]
+  },
+  {
+    "nodeId": "5:3800",
+    "name": "24",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": null,
+    "text": 5,
+    "images": 8,
+    "vectors": 822,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora",
+      "mixed"
+    ],
+    "texts": [
+      "Fast. Digital. Hassle-Free.",
+      "arnifi.com"
+    ]
+  },
+  {
+    "nodeId": "5:4655",
+    "name": "9",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": null,
+    "text": 5,
+    "images": 7,
+    "vectors": 828,
+    "hidden": 1,
+    "fonts": [
+      "Inter",
+      "Lora",
+      "mixed"
+    ],
+    "texts": [
+      "Fast. Digital. Hassle-Free.",
+      "arnifi.com"
+    ]
+  },
+  {
+    "nodeId": "5:5519",
+    "name": "3",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": null,
+    "text": 5,
+    "images": 7,
+    "vectors": 15,
+    "hidden": 1,
+    "fonts": [
+      "Lora",
+      "mixed",
+      "Inter"
+    ],
+    "texts": [
+      "Business Setup.  Simplified.",
+      "13th UAE Annual Flag Day"
+    ]
+  },
+  {
+    "nodeId": "5:5555",
+    "name": "4",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": null,
+    "text": 6,
+    "images": 7,
+    "vectors": 15,
+    "hidden": 1,
+    "fonts": [
+      "Lora",
+      "mixed",
+      "Inter"
+    ],
+    "texts": [
+      "Business Setup.  Simplified.",
+      "13th UAE Annual Flag Day"
+    ]
+  },
+  {
+    "nodeId": "5:5592",
+    "name": "5",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": null,
+    "text": 7,
+    "images": 7,
+    "vectors": 15,
+    "hidden": 1,
+    "fonts": [
+      "Lora",
+      "mixed",
+      "Inter"
+    ],
+    "texts": [
+      "Business Setup.  Simplified.",
+      "UAE Annual Flag Day"
+    ]
+  },
+  {
+    "nodeId": "5:5630",
+    "name": "2",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": null,
+    "text": 5,
+    "images": 8,
+    "vectors": 12,
+    "hidden": 1,
+    "fonts": [
+      "Lora",
+      "mixed",
+      "Inter"
+    ],
+    "texts": [
+      "Business Setup.  Simplified.",
+      "13th UAE Annual Flag Day"
+    ]
+  },
+  {
+    "nodeId": "5:5669",
+    "name": "1",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": null,
+    "text": 5,
+    "images": 4,
+    "vectors": 13,
+    "hidden": 1,
+    "fonts": [
+      "Lora",
+      "mixed",
+      "Inter"
+    ],
+    "texts": [
+      "Business Setup.  Simplified.",
+      "13th UAE Annual Flag Day "
+    ]
+  },
+  {
+    "nodeId": "5:5724",
+    "name": "UAE and Japan V2",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 7,
+    "images": 1,
+    "vectors": 13,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "Business Setup.  Simplified.",
+      "Fast. Digital. Hassle-Free."
+    ]
+  },
+  {
+    "nodeId": "5:5754",
+    "name": "UAE and Japan",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 7,
+    "images": 1,
+    "vectors": 13,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "UAE x Japan",
+      "Deepen AI Collaboration"
+    ]
+  },
+  {
+    "nodeId": "5:5784",
+    "name": "UAE and Japan",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 7,
+    "images": 1,
+    "vectors": 13,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "UAE x Japan",
+      "Deepen AI Collaboration"
+    ]
+  },
+  {
+    "nodeId": "5:5815",
+    "name": "UAE and Japan",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 7,
+    "images": 1,
+    "vectors": 13,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "UAE x Japan",
+      "Deepen AI Collaboration"
+    ]
+  },
+  {
+    "nodeId": "5:5846",
+    "name": "UAE and Japan",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 7,
+    "images": 1,
+    "vectors": 13,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "UAE x Japan",
+      "Deepen AI Collaboration"
+    ]
+  },
+  {
+    "nodeId": "5:5877",
+    "name": "UAE and Japan",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 7,
+    "images": 1,
+    "vectors": 13,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "Business Setup.  Simplified.",
+      "Fast. Digital. Hassle-Free."
+    ]
+  },
+  {
+    "nodeId": "5:5907",
+    "name": "UAE vs japan V2 Sl 2",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 4,
+    "images": 1,
+    "vectors": 11,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "Business Setup.  Simplified.",
+      "Fast. Digital. Hassle-Free."
+    ]
+  },
+  {
+    "nodeId": "5:5930",
+    "name": "UAE vs japan V1 Sl 2",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 4,
+    "images": 1,
+    "vectors": 11,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "Business Opportunities  with this Partne",
+      "Business Setup.  Simplified."
+    ]
+  },
+  {
+    "nodeId": "5:5953",
+    "name": "UAE vs japan V1 Sl 6",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 4,
+    "images": 1,
+    "vectors": 11,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "Business Opportunities  with this Partne",
+      "Business Setup.  Simplified."
+    ]
+  },
+  {
+    "nodeId": "5:5976",
+    "name": "UAE vs japan V1 Sl 9",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 4,
+    "images": 1,
+    "vectors": 11,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "Business Opportunities  with this Partne",
+      "Business Setup.  Simplified."
+    ]
+  },
+  {
+    "nodeId": "5:5999",
+    "name": "UAE vs japan V1 Sl 11",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 4,
+    "images": 1,
+    "vectors": 11,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "Business Opportunities  with this Partne",
+      "Business Setup.  Simplified."
+    ]
+  },
+  {
+    "nodeId": "5:6022",
+    "name": "UAE vs japan V1 Sl 12",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 6,
+    "images": 1,
+    "vectors": 11,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "Business Setup.  Simplified.",
+      "Fast. Digital. Hassle-Free."
+    ]
+  },
+  {
+    "nodeId": "5:6048",
+    "name": "UAE vs japan",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 8,
+    "images": 1,
+    "vectors": 20,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "Business Setup.  Simplified.",
+      "Fast. Digital. Hassle-Free."
+    ]
+  },
+  {
+    "nodeId": "5:6092",
+    "name": "UAE vs japan",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 7,
+    "images": 1,
+    "vectors": 26,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "Business Opportunities with this Partner",
+      "Opportunity for Tech Businesses"
+    ]
+  },
+  {
+    "nodeId": "5:6128",
+    "name": "Frame 2147229194",
+    "type": "FRAME",
+    "w": 297,
+    "h": 480,
+    "section": "UAE vs Japan",
+    "text": 2,
+    "images": 0,
+    "vectors": 4,
+    "hidden": 0,
+    "fonts": [
+      "Inter"
+    ],
+    "texts": [
+      "Strengthening UAE–Japan Ties",
+      "MoIAT’s Japan visit advances bilateral t"
+    ]
+  },
+  {
+    "nodeId": "5:6139",
+    "name": "Frame 2147229195",
+    "type": "FRAME",
+    "w": 296,
+    "h": 480,
+    "section": "UAE vs Japan",
+    "text": 2,
+    "images": 0,
+    "vectors": 5,
+    "hidden": 0,
+    "fonts": [
+      "Inter"
+    ],
+    "texts": [
+      "Opportunity for Tech Businesses",
+      "The UAE offers tech businesses a potenti"
+    ]
+  },
+  {
+    "nodeId": "5:6150",
+    "name": "Frame 2147229196",
+    "type": "FRAME",
+    "w": 297,
+    "h": 480,
+    "section": "UAE vs Japan",
+    "text": 2,
+    "images": 0,
+    "vectors": 8,
+    "hidden": 0,
+    "fonts": [
+      "Inter"
+    ],
+    "texts": [
+      "Research & Development Centres",
+      "Stronger ties could encourage joint R&D "
+    ]
+  },
+  {
+    "nodeId": "5:6155",
+    "name": "UAE vs japan V2 Sl 3",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 6,
+    "images": 1,
+    "vectors": 11,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "Business Setup.  Simplified.",
+      "Fast. Digital. Hassle-Free."
+    ]
+  },
+  {
+    "nodeId": "5:6181",
+    "name": "UAE vs japan V1 Sl 3",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 6,
+    "images": 1,
+    "vectors": 11,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "AI Is Creating New Possibilities ",
+      "What’s Yours?"
+    ]
+  },
+  {
+    "nodeId": "5:6207",
+    "name": "UAE vs japan V1 Sl 4",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 6,
+    "images": 1,
+    "vectors": 11,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora"
+    ],
+    "texts": [
+      "AI Is Creating New Possibilities ",
+      "What’s Yours?"
+    ]
+  },
+  {
+    "nodeId": "5:6233",
+    "name": "UAE vs japan V1 Sl 10",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 6,
+    "images": 1,
+    "vectors": 11,
+    "hidden": 0,
+    "fonts": [
+      "Inter",
+      "Lora"
+    ],
+    "texts": [
+      "AI Is Creating New Possibilities ",
+      "What’s Yours?"
+    ]
+  },
+  {
+    "nodeId": "5:6259",
+    "name": "UAE vs japan",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 6,
+    "images": 1,
+    "vectors": 11,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "Business Setup.  Simplified.",
+      "Fast. Digital. Hassle-Free."
+    ]
+  },
+  {
+    "nodeId": "5:6285",
+    "name": "UAE vs japan",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 3,
+    "images": 1,
+    "vectors": 9,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "AI Is Creating New Possibilities ",
+      "What’s Yours?"
+    ]
+  },
+  {
+    "nodeId": "5:6303",
+    "name": "UAE and Japan",
+    "type": "FRAME",
+    "w": 1080,
+    "h": 1350,
+    "section": "UAE vs Japan",
+    "text": 4,
+    "images": 1,
+    "vectors": 11,
+    "hidden": 0,
+    "fonts": [
+      "Lora",
+      "Inter"
+    ],
+    "texts": [
+      "UAE x Japan",
+      "Deepen AI Collaboration"
+    ]
+  }
+]

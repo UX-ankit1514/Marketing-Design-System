@@ -1,0 +1,1134 @@
+PRODUCT REQUIREMENTS DOCUMENT (PRD)
+Arnifi Marketing Design System
+Product: Arnifi Marketing Studio Version: MVP 1.0 Platform: Desktop-first Web Application Development Environment: Claude Code Design Source: Figma through MCP / API Status: Ready for MVP development, subject to Figma source inspection Purpose: Internal stakeholder demonstration and product validation
+
+1. Executive Summary
+1.1 Product Overview
+Arnifi Marketing Studio is a self-service web application that enables Arnifi's internal teams to create professional, brand-consistent marketing creatives using predefined templates.
+Instead of creating every LinkedIn or Instagram post manually in Figma, users select an approved template, replace its text and images, adjust individual elements, preview the output, and download the finished creative.
+For the MVP, Claude Code will use the connected Figma MCP to inspect the provided Figma file, identify the 20 most suitable marketing designs, and recreate them as reusable, editable templates.
+The application must preserve the original visual quality of those designs while providing a simple, beginner-friendly editing experience.
+Core user journey:
+Template Library → Select or Upload Template → Customize Design → Live Preview → Export
+1.2 Product Vision
+Enable any Arnifi marketing team member to create a professional, on-brand marketing creative within minutes, without requiring Figma knowledge or routine assistance from the design team.
+1.3 Product Principles
+Template-first: Users start with professionally designed layouts rather than a blank canvas.
+Easy to use: Editing must be understandable to someone without design experience.
+Design fidelity: Imported templates must visually resemble their Figma originals.
+Flexible editing: Text, images, logos, and footers should be individually editable or movable.
+Brand consistency: Default designs follow Arnifi's existing design system.
+Fast output: The shortest path from template selection to export should require minimal interaction.
+MVP discipline: Demonstrate the complete core workflow without building unnecessary platform features.
+
+2. Problem Statement
+2.1 Current Problem
+Arnifi frequently needs marketing creatives for social media, campaigns, announcements, educational content, and business-related posts.
+The current process depends heavily on designers manually editing existing posters or recreating similar layouts.
+This creates several challenges:
+Repeated design work for similar marketing posts.
+Marketing team dependency on designers for simple copy and image updates.
+Inconsistent layouts when designs are recreated manually.
+Time spent searching for existing poster designs.
+No centralized, self-service template creation experience.
+These are the problems the MVP is intended to address. Their frequency and time impact should be validated with actual users rather than assumed.
+2.2 Proposed Solution
+Create a central web application containing approved Arnifi marketing templates.
+Users can choose a template and update its contents without redesigning the creative.
+The application's editor will handle common design adjustments while retaining the original structure and visual quality.
+2.3 Expected Outcome
+Reduced repetitive design work.
+Faster marketing creative production.
+Greater independence for non-designers.
+More consistent brand presentation.
+Easier reuse of existing design assets.
+
+3. Product Goals and Success Metrics
+3.1 Primary Goals
+G1 — Self-service creation
+Allow a marketing user to create a finished post without using Figma.
+G2 — Template reusability
+Convert selected Figma posters into reusable editable templates.
+G3 — Brand consistency
+Preserve the original template styling and use Arnifi's existing design system.
+G4 — Faster production
+Reduce the number of manual editing steps needed to create a branded post.
+G5 — Stakeholder validation
+Provide a working prototype demonstrating that the concept is useful and technically feasible.
+3.2 Proposed MVP Success Criteria
+Metric
+MVP target
+Template library
+20 selected source templates represented
+Editable template coverage
+All 20 support core text/image editing and export
+High-fidelity showcase templates
+At least 3–5 reviewed in depth
+Core workflow
+Complete without Figma
+First-time creation time
+Target under 5 minutes in user testing
+Export
+Correct size, no missing elements
+Manual design assistance
+Not required for the demonstrated flow
+These are proposed evaluation targets, not current performance measurements.
+
+4. Target Users
+Persona A — Marketing Team Member
+Primary user
+Needs to create Instagram or LinkedIn posts regularly.
+May not have advanced design skills.
+Wants to select a template, paste content, replace an image, and download the design.
+Primary need: Fast, uncomplicated content creation.
+Persona B — Arnifi Designer
+Template creator and design owner
+Prepares templates in Figma and maintains brand consistency.
+Needs selected layouts to retain their original design quality after import.
+Primary need: Reusable templates that don't need repeated manual rebuilding.
+Persona C — Marketing Manager / Stakeholder
+Reviewer
+Wants to understand how this system could simplify marketing production.
+Needs to see the template library, editing process, and a finished export.
+Primary need: A demonstrable improvement in the design workflow.
+
+5. MVP Scope
+5.1 Must-Have Features (P0)
+ID
+Feature
+Description
+F01
+Figma template extraction
+Inspect and import selected Figma designs during development
+F02
+Template library
+Display 20 approved templates
+F03
+Template selection
+Open a template as a new editable project
+F04
+Template upload
+Upload a supported personal template or background
+F05
+Editable canvas
+Select and move editable design elements
+F06
+Text editor
+Edit text, typography, alignment, and positioning
+F07
+Image editor
+Upload, replace, resize, and reposition images
+F08
+Logo controls
+Move, show/hide, and remove logo layers
+F09
+Footer controls
+Move, show/hide, and remove footer elements
+F10
+Live preview
+Render changes immediately
+F11
+Undo / redo
+Recover from editing mistakes
+F12
+Reset template
+Restore the original layout
+F13
+Export
+Download PNG/JPG
+F14
+Local project persistence
+Preserve edits locally for demo continuity
+5.2 Nice-to-Have Features (P1)
+Only implement these after the complete P0 workflow works.
+Template search and category filters.
+Canvas zoom and fit-to-screen.
+Snap-to-grid and alignment guides.
+Keyboard shortcuts.
+Duplicate and reorder layers.
+Save an editable project as a reusable file.
+Duplicate an existing project.
+Advanced image cropping.
+5.3 Out of Scope (V2)
+Do not build these for the initial MVP:
+Live Figma synchronization inside the web app.
+Figma OAuth connection for every end user.
+AI image generation.
+AI copywriting.
+Team accounts and role management.
+Cloud collaboration.
+Approval workflows.
+Direct Instagram or LinkedIn publishing.
+Payment plans or subscriptions.
+Real-time multi-user editing.
+Full-featured vector drawing tools.
+Automatic conversion of arbitrary raster images into editable text and design layers.
+The MVP should not attempt to become a complete replacement for Canva or Figma.
+
+6. Figma Template Discovery and Selection
+This is a critical part of the product.
+6.1 Existing Environment
+Assume the following are already available within Claude Code:
+An existing project or project workspace.
+Arnifi's design system and relevant implementation rules.
+A Figma file link containing marketing posters.
+A configured Figma MCP connection, or instructions for connecting it.
+Claude Code must verify these assumptions before proceeding.
+Do not recreate the design system without first inspecting the existing one.
+6.2 Figma Inspection Process
+Claude Code must:
+Verify that the Figma MCP connection works.
+Open the provided Figma file.
+Inspect its pages and relevant frames.
+Identify marketing posters and social media layouts.
+Obtain structured layer information for suitable frames.
+Capture reference screenshots.
+Collect available text, assets, dimensions, styles, and layer relationships.
+Build an inventory of eligible poster designs.
+Use Figma MCP tools appropriate to the connected environment, including design context, metadata, screenshots, and asset downloads.
+If MCP does not provide sufficient structured data, investigate the official Figma API as a development-time fallback using authorized access.
+Do not assume every visible frame is an eligible template.
+6.3 Template Selection Logic
+From the available posters, select up to 20 of the best candidates.
+Selection criteria:
+Criteria
+Weight
+Variety of layouts
+25%
+Reusability for different content
+25%
+Visual design quality
+20%
+Editable layer structure
+15%
+Coverage of marketing use cases
+15%
+The scores are selection guidelines, not a requirement for a complex AI ranking model.
+Prioritize a balanced collection, based on what actually exists in the source file, such as:
+Business setup posts.
+Educational or informational posts.
+Service promotions.
+Announcements.
+Campaign creatives.
+Comparison layouts.
+Image-led posters.
+Typography-led designs.
+Social media carousel covers.
+Call-to-action posters.
+Do not invent templates or source categories that are absent from the Figma file.
+Avoid selecting visually identical designs solely to reach the target of 20.
+If fewer than 20 suitable source designs exist, report the actual count and the reason for the shortfall.
+6.4 Required Template Inventory
+Before implementation, create an internal template inventory containing:
+Template name.
+Original Figma file and node ID.
+Reference screenshot.
+Original width and height.
+Intended content category.
+Editable text layer count.
+Image layer count.
+Logo and footer presence.
+Font families and styles.
+Import complexity.
+Selection status and reason.
+The source reference must remain traceable so any reconstructed template can be compared against its original.
+
+7. Figma-to-Web Template Conversion
+7.1 Core Requirement
+Convert each selected Figma poster into a structured template that the web editor can manipulate.
+Do not import the entire poster as a single background image and describe it as fully editable.
+Each supported element should exist as an independent object.
+7.2 Elements to Extract
+Typography
+Exact text content.
+Font family.
+Font weight.
+Font size.
+Line height.
+Letter spacing.
+Text alignment.
+Text box width and height.
+Text color.
+Position.
+Images
+Original image asset where accessible.
+Image dimensions.
+Position and scale.
+Crop or clipping information where supported.
+Layer stacking order.
+Shapes and Decorative Elements
+Rectangles.
+Circles.
+Borders.
+Background colors.
+Gradients.
+Corner radii.
+Shadows and other effects where supported.
+Brand Elements
+Arnifi logos.
+Footer blocks.
+Decorative brand components.
+Repeated layout elements.
+Document Properties
+Artboard width and height.
+Background.
+Child layer hierarchy.
+Object positions.
+Visibility states.
+7.3 Typography Rules
+Preserve typography from the Figma source.
+Inter and Lora are expected to be common fonts, but Claude Code must verify the actual font used by each layer.
+Rules:
+Do not replace every font with Inter automatically.
+Retain Lora wherever it appears in the source.
+Preserve font weights and hierarchy.
+Load the required fonts before canvas rendering and exporting.
+Detect unavailable fonts and flag them.
+Use the existing project font assets or approved font sources, respecting font licensing.
+7.4 Editable and Non-Editable Layer Handling
+For the MVP:
+Text layers must remain editable text.
+Images must remain replaceable image objects.
+Logos should be individually selectable where possible.
+Footer elements should be separate or manageable as a group.
+Supported shapes should remain editable canvas objects.
+Complicated decorative effects may be rasterized individually when faithful recreation is not practical.
+If a decorative effect must be flattened, flatten only the necessary layer or group, not the entire poster.
+Record these limitations in the template inventory.
+7.5 Asset Reliability
+Download and store authorized assets within the project.
+Do not depend on temporary Figma-hosted image URLs at runtime.
+Every template must render after a fresh application build without requiring the Figma MCP connection.
+
+8. User Journeys
+Journey A — Create From an Existing Template
+Primary MVP journey
+User opens Arnifi Marketing Studio.
+User arrives at the Template Library.
+User browses available designs.
+User selects a template.
+User enters a project name.
+The editor loads the selected template.
+User updates the heading and supporting text.
+User replaces the required image.
+User adjusts element positioning.
+User chooses whether to show or hide the logo/footer.
+User reviews the live canvas.
+User clicks Export.
+User selects PNG or JPG.
+Browser downloads the final design.
+Success condition: A finished, brand-consistent marketing creative is downloaded.
+Journey B — Upload a Personal Template
+User opens the Template Library.
+User clicks Upload Template.
+User selects a supported file.
+Application identifies the file format.
+A new project opens using the imported content.
+User adds or edits supported elements.
+User previews the design.
+User exports the result.
+Important distinction:
+For PNG/JPG uploads, the existing pixels are treated as an image or background. Users can add editable text, image objects, logos, and other layers over it, but cannot directly edit text baked into that image.
+A native project/template JSON file produced by this application can retain individual editable layers.
+Do not promise automatic layer extraction from generic flat image uploads.
+Journey C — Edit an Existing Project
+User reopens a locally saved project.
+Previous edits are restored.
+User continues making changes.
+Updates are saved locally.
+User exports the latest version.
+Journey D — Add Templates From Figma
+Development workflow for MVP; not an end-user screen.
+Designer creates posters in Figma.
+Claude Code accesses the Figma file through MCP.
+Relevant frames are inspected and selected.
+Frames are converted into structured template data.
+Assets and screenshots are stored locally.
+Imported templates are validated.
+Approved templates appear in the web application's library.
+In V2, this workflow may become an in-product Figma import and synchronization feature.
+
+9. Information Architecture
+The MVP should have three primary areas.
+Screen 1 — Template Library
+Purpose: Help users find an appropriate starting layout.
+Required UI Elements
+Application logo and product name.
+"Create New Design" heading.
+Template gallery.
+Template preview cards.
+Template name.
+Original dimensions or format.
+Template selection action.
+Upload Template action.
+Search and filtering can be added after the core gallery works.
+Template Card Behavior
+Each card should display:
+Accurate poster thumbnail.
+Template name.
+Format or size.
+Use Template action.
+Clicking a card opens a new project rather than modifying the original template.
+Screen 2 — Template Editor
+Purpose: Customize an approved marketing layout.
+Editor Layout
+Left Panel — Layers
+Displays:
+Text layers.
+Image layers.
+Logo.
+Footer.
+Shapes and other editable elements.
+Each layer should be selectable.
+Center — Canvas
+Displays the poster at the correct aspect ratio.
+Allows:
+Element selection.
+Dragging.
+Resizing supported elements.
+Direct visual manipulation.
+Live rendering of edits.
+Right Panel — Properties
+Changes according to the selected element.
+For text:
+Content.
+Font.
+Font size.
+Font weight where supported.
+Color.
+Alignment.
+Position.
+For images:
+Replace.
+Position.
+Size.
+Crop or fit settings where implemented.
+For logos and footer:
+Visibility.
+Position.
+Size.
+Reset position.
+Top Toolbar
+Contains:
+Project name.
+Undo.
+Redo.
+Reset template.
+Preview.
+Export.
+Screen 3 — Preview and Export
+Purpose: Review and download the creative.
+Show:
+Finished design without editing controls.
+Full-size or fit-to-screen preview.
+Original output dimensions.
+PNG or JPG option.
+Export action.
+For the MVP, preview can be a mode or modal within the editor rather than a separate route.
+
+10. Detailed Functional Requirements
+FR-01 — Template Library
+Requirement: Users can browse and select imported templates.
+Acceptance Criteria:
+The gallery displays accurate previews.
+Twenty selected templates are targeted for the completed MVP.
+Each card opens its associated editable template.
+Template dimensions remain correct.
+Missing assets produce an identifiable error rather than an empty card.
+FR-02 — Template Editing
+Requirement: Users can edit supported individual design elements.
+Acceptance Criteria:
+Clicking an object selects it.
+Selected objects have a visible selection indicator.
+Dragging moves the object.
+The properties panel reflects the selected object.
+Changes appear immediately.
+Original master template data is not overwritten by project edits.
+FR-03 — Text Editing
+Requirement: Users can modify template text without recreating the layout.
+Required Behaviors:
+Select text.
+Update its contents using the right panel.
+Move it up/down and left/right.
+Change alignment.
+Change font size.
+Change color.
+Resize the text box.
+Preserve original styling by default.
+Acceptance Criteria:
+The text remains editable after saving/reloading.
+Text updates appear immediately.
+Long content is not silently clipped.
+Users receive a visible indication when content overflows.
+Empty text fields do not cause crashes.
+FR-04 — Image Editing
+Requirement: Users can replace and reposition images.
+Required Behaviors:
+Select an image layer.
+Upload a replacement image.
+Preserve the original placeholder bounds by default.
+Support contain/cover behavior for common image replacements.
+Adjust position or size.
+Acceptance Criteria:
+Image replacement does not disturb unrelated layers.
+The uploaded image appears in live preview.
+Export includes the correct image.
+Unsupported files show an error.
+FR-05 — Logo and Footer Management
+Requirement: Brand elements are reusable but adjustable.
+Required Behaviors:
+Select logo.
+Move logo.
+Hide or show logo.
+Remove logo from the current project.
+Restore removed logo.
+Move or hide footer.
+Reset brand elements to original placement.
+Acceptance Criteria:
+Hiding an element excludes it from export.
+Moving an element updates its position.
+Reset restores original template coordinates.
+Changes affect the current project, not all templates.
+FR-06 — Layer Management
+Requirement: Support basic object organization.
+Required Behaviors:
+Select layers from the left panel.
+Visually identify the selected canvas object.
+Change visibility.
+Move selected elements.
+Preserve stacking order.
+Advanced grouping and unrestricted vector editing are not required for the MVP.
+FR-07 — Undo, Redo and Reset
+Requirement: Users should safely explore edits.
+Acceptance Criteria:
+Undo reverses the previous committed edit.
+Redo reapplies it.
+Drag operations are recorded as meaningful history actions rather than thousands of intermediate states.
+Reset restores the current project's original template layout after confirmation.
+Reset does not delete unrelated saved projects.
+FR-08 — Live Preview
+Requirement: Users see their modifications immediately.
+Acceptance Criteria:
+Text updates render without manually refreshing.
+Dragging updates the canvas.
+Image replacement updates the canvas.
+Preview reflects hidden and visible layers.
+Output dimensions remain consistent with the selected template.
+The application must not distort the poster merely to fit the browser window.
+FR-09 — Export
+Requirement: Users can download completed designs to their computer.
+Required Formats:
+PNG.
+JPG.
+Acceptance Criteria:
+Export uses the template's original pixel dimensions by default.
+No editor selection boxes or controls appear.
+No watermark is added.
+Fonts and images are loaded before output is generated.
+Hidden elements do not appear.
+Export works after text and image edits.
+Browser initiates a local download.
+Recommended filename pattern:
+arnifi-project-name-1080x1350.png
+The browser determines whether the file saves directly to Downloads or prompts the user, depending on their settings.
+FR-10 — Project Persistence
+Requirement: Users should not lose progress during a stakeholder demonstration.
+Acceptance Criteria:
+Project state is saved locally.
+Refreshing restores the latest saved changes.
+A project can be reopened.
+Imported images remain available after a refresh.
+A storage failure produces a visible message.
+No user accounts or cloud project database are required for MVP.
+
+11. Template Data Architecture
+The application should use a shared template model rather than hardcoding 20 different poster editors.
+Each template must contain:
+Template ID and name.
+Original source metadata.
+Canvas dimensions.
+Background configuration.
+Ordered layer objects.
+Layer properties.
+Asset references.
+Original default values.
+Version information.
+Example Data Model
+The following is illustrative; Claude Code should adapt it to the actual editor library and imported Figma data.
+{
+  "id": "arnifi-template-001",
+  "name": "Business Setup Announcement",
+  "version": 1,
+  "source": {
+    "type": "figma",
+    "fileKey": "source-file-key",
+    "nodeId": "123:456"
+  },
+  "category": "Announcement",
+  "canvas": {
+    "width": 1080,
+    "height": 1350,
+    "background": "#FFFFFF"
+  },
+  "layers": [
+    {
+      "id": "heading-01",
+      "type": "text",
+      "name": "Main Heading",
+      "text": "Start your business",
+      "fontFamily": "Inter",
+      "fontSize": 64,
+      "fontWeight": 600,
+      "fill": "#161616",
+      "x": 80,
+      "y": 120,
+      "width": 900,
+      "visible": true,
+      "editable": true
+    },
+    {
+      "id": "brand-logo",
+      "type": "image",
+      "role": "logo",
+      "name": "Arnifi Logo",
+      "src": "/assets/arnifi-logo.svg",
+      "x": 80,
+      "y": 50,
+      "width": 160,
+      "visible": true,
+      "editable": true
+    }
+  ]
+}
+This example is not an extracted Arnifi poster. Actual template values must come from the Figma source.
+Architecture Rules
+Store master templates separately from edited projects.
+Create a working copy when a template is selected.
+Do not permanently mutate the master template.
+Maintain stable IDs for layers.
+Preserve layer ordering.
+Support JSON serialization.
+Keep asset paths independent of temporary Figma URLs.
+Version the template format so future changes can be migrated.
+
+12. Recommended Technical Stack
+Choose a stack optimized for a browser-based graphic editor, not a conventional content dashboard.
+Layer
+Recommended technology
+Frontend
+React + TypeScript
+Build tooling
+Vite
+Canvas editor
+Fabric.js
+Styling
+Existing Arnifi design system and its current styling framework
+App state
+Zustand
+Local project storage
+IndexedDB
+Data validation
+Zod
+Template format
+JSON
+Figma extraction
+Connected Figma MCP, with authorized REST API fallback where needed
+Unit tests
+Vitest
+Browser tests
+Playwright
+Deployment
+Vercel or equivalent static hosting
+Use maintained, compatible package versions rather than assuming a particular package version.
+12.1 Why React + TypeScript?
+Suitable for an interactive web application.
+Component-based architecture.
+Strong support for reusable UI.
+TypeScript improves maintainability of layered template data.
+Works well with a pre-existing design system.
+12.2 Why Fabric.js?
+The canvas editor needs to support:
+Selectable objects.
+Draggable elements.
+Resizing and transforms.
+Text objects.
+Image objects.
+Layer stacking.
+Serialization.
+Image export.
+Fabric.js provides core capabilities for these interactions.
+Do not build a canvas engine from scratch.
+Use a React wrapper/component architecture that keeps the Fabric canvas instance stable rather than recreating it on every React render.
+12.3 Why Vite?
+This MVP does not require server-side rendering or a complicated backend.
+Vite supports a lightweight frontend build that can be deployed as a static web application.
+12.4 Why Local-First Storage?
+The initial application is intended for a stakeholder demonstration.
+Storing project state locally avoids unnecessary authentication, database setup, and cloud infrastructure.
+Use IndexedDB for project data and uploaded assets.
+Note that local projects are specific to the browser/device. Cross-device synchronization is not part of this MVP.
+12.5 Deployment
+The application should:
+Work locally during development.
+Build successfully for production.
+Be deployable to a shareable URL.
+Include seeded templates and project assets.
+Load without Figma access at runtime.
+Never expose Figma access tokens or other credentials in frontend code.
+
+13. Implementation Architecture
+Use a modular project structure.
+src/
+  app/
+    App.tsx
+    routes/
+
+  components/
+    layout/
+    common/
+
+  features/
+    templates/
+      TemplateLibrary.tsx
+      TemplateCard.tsx
+      templateStore.ts
+
+    editor/
+      EditorPage.tsx
+      EditorCanvas.tsx
+      LayersPanel.tsx
+      PropertiesPanel.tsx
+      Toolbar.tsx
+      editorStore.ts
+
+    export/
+      ExportDialog.tsx
+      exportService.ts
+
+    upload/
+      UploadTemplate.tsx
+      importService.ts
+
+  lib/
+    canvas/
+    templates/
+    storage/
+    validation/
+
+  types/
+    template.ts
+    layer.ts
+    project.ts
+
+  data/
+    templates/
+
+  styles/
+
+scripts/
+  figma/
+    inspect/
+    inventory/
+    convert/
+    validate/
+
+public/
+  template-assets/
+  fonts/
+
+tests/
+  unit/
+  e2e/
+Adapt the structure to the existing project rather than overwriting a working architecture unnecessarily.
+Separation of Responsibilities
+Figma Import Scripts
+Responsible for gathering source data and generating templates.
+Template Engine
+Responsible for reading, validating, and instantiating editable template objects.
+Canvas Editor
+Responsible for visual interaction and layer changes.
+Project Store
+Responsible for current project state, history, and persistence.
+Export Service
+Responsible for producing final image files.
+This separation is essential for supporting more templates and future Figma integration.
+
+14. Critical UX Requirements
+14.1 Initial Experience
+The user should immediately understand:
+What the tool does.
+Which templates are available.
+How to start creating a post.
+Do not overload the landing screen with technical settings.
+14.2 Editor Usability
+The editor should feel lightweight and predictable.
+Requirements:
+Click to select.
+Drag to move.
+Double-click text to edit directly where supported.
+Right-side panel to make precise changes.
+Clear selection indicators.
+Visible undo and redo.
+No distracting animations during editing.
+14.3 Template Preservation
+When a template opens, it should match its original design by default.
+Editing must not unexpectedly change:
+Text hierarchy.
+Original image crop.
+Spacing.
+Logo placement.
+Background.
+Aspect ratio.
+Changes should happen only through user interaction.
+14.4 Content Overflow
+Marketing users may paste content that is longer than the original copy.
+The tool should:
+Detect overflow.
+Show a clear warning.
+Allow text box resizing or font adjustment.
+Avoid silently deleting or clipping content.
+Do not introduce unrequested AI rewriting as a workaround.
+14.5 Responsive Application
+The web app is desktop-first because precise poster editing requires screen space.
+Support common desktop and laptop widths.
+For smaller screens, prioritize readable navigation and show a clear desktop recommendation if full editing cannot be used comfortably.
+The poster's original output dimensions must remain independent of the editor's responsive layout.
+
+15. Design Fidelity and Quality Standards
+15.1 Source Fidelity
+Imported templates must retain:
+Original composition.
+Correct aspect ratio.
+Correct typography.
+Accurate image placement.
+Original color hierarchy.
+Brand elements.
+Relative spacing and alignment.
+15.2 Validation Process
+For each template:
+Capture the original Figma reference.
+Render the imported web template.
+Compare them at matching dimensions.
+Identify visible differences.
+Correct significant mismatches.
+Test text and image editing.
+Test exporting.
+Mark the template as validated.
+Automated screenshot comparisons can help identify differences, but human review remains necessary for typography and complex visual effects.
+15.3 Quality Gates
+Gate A — Import
+The template renders without missing required layers.
+Gate B — Visual
+No significant unexplained differences from the source reference.
+Gate C — Editing
+Text and image editing work correctly.
+Gate D — Export
+The downloaded image matches the edited design.
+All 20 templates should pass the functional gates before being described as complete.
+At least 3–5 representative templates should receive especially thorough visual review for the stakeholder demonstration.
+
+16. Performance and Non-Functional Requirements
+Performance
+Library should feel responsive with 20 templates.
+Thumbnail loading should not block the whole interface.
+Text changes should appear promptly.
+Dragging should remain smooth on a typical modern laptop.
+Large source assets should be optimized without degrading export quality.
+The application should not freeze during ordinary exports.
+Reliability
+A broken template must not crash the entire library.
+Failed exports should show an error and permit retry.
+Autosave should protect the current editing session.
+Invalid uploads should be rejected gracefully.
+Security and Privacy
+Figma access credentials remain in development/server-side tooling.
+Uploaded images are handled locally for the MVP.
+No unnecessary personal information collection.
+No unsafe execution of imported template content.
+Validate uploaded files and structured project data.
+Accessibility
+Clear visible labels.
+Keyboard-accessible main controls.
+Readable color contrast.
+Keyboard focus indication.
+Accessible form fields and dialogs.
+
+17. Edge Cases
+Claude Code must handle the following:
+Scenario
+Expected behavior
+Figma MCP unavailable
+Show/report import blocker; continue on independent app components
+Figma frame has unsupported effects
+Preserve a reference asset for the affected decorative layer and flag limitation
+Font unavailable
+Show warning; don't silently claim exact fidelity
+Image missing
+Display clear placeholder/error
+Text becomes too long
+Show overflow warning
+Image uploaded with different ratio
+Preserve placeholder bounds and use controlled crop/fit
+User removes the logo
+Remove it only from the current project
+User resets a template
+Restore its original state
+User refreshes the editor
+Restore locally saved work
+Unsupported uploaded file
+Explain supported formats
+Export fails
+Show reason and retry option
+Fewer than 20 suitable posters
+Report actual count; do not fabricate extras
+Same template selected twice
+Create separate project instances
+
+18. Development Roadmap
+Claude Code should develop the product in stages.
+Phase 1 — Project and Design System Audit
+Tasks:
+Inspect the current project.
+Identify existing components and styling conventions.
+Verify Figma MCP access.
+Identify the supplied Figma file.
+Confirm usable font and brand assets.
+Establish the initial application architecture.
+Deliverable: Working project foundation with documented assumptions.
+Phase 2 — Figma Template Inventory
+Tasks:
+Inspect Figma pages and poster frames.
+Create a candidate inventory.
+Select the 20 most suitable templates.
+Download references and assets.
+Record source frame IDs.
+Identify import limitations.
+Deliverable: Template inventory and source reference collection.
+Phase 3 — Template Engine and Import
+Tasks:
+Define reusable template JSON format.
+Implement layer conversion.
+Create a rendering engine.
+Reconstruct supported elements.
+Store the imported assets locally.
+Validate at least one representative template before processing the remainder.
+Deliverable: Editable template rendering architecture.
+Phase 4 — Editor MVP
+Tasks:
+Build template gallery.
+Build template selection.
+Build left-side layer panel.
+Build central editable canvas.
+Build right-side properties panel.
+Enable text and image editing.
+Enable object positioning.
+Implement logo/footer controls.
+Add undo, redo, and reset.
+Deliverable: Working end-to-end editor for a representative template.
+Phase 5 — Upload, Preview and Export
+Tasks:
+Add supported template upload flow.
+Add custom image uploads.
+Implement local project persistence.
+Implement full preview.
+Implement PNG/JPG export.
+Verify exported dimensions and fidelity.
+Deliverable: Complete creation and download journey.
+Phase 6 — Complete Template Library
+Tasks:
+Import and validate the remaining selected templates.
+Test editor compatibility across layouts.
+Fix missing fonts and assets.
+Check different aspect ratios.
+Correct major visual differences.
+Ensure the same editor works for all supported templates.
+Deliverable: Complete MVP template library.
+Phase 7 — QA and Stakeholder Preparation
+Tasks:
+Run functional tests.
+Perform visual comparison against Figma.
+Test on common desktop browsers.
+Fix critical issues.
+Prepare a stakeholder demo flow.
+Verify production build.
+Prepare shareable deployment if hosting is configured.
+Deliverable: Stakeholder-ready MVP.
+
+19. Testing and Acceptance Checklist
+Claude Code must verify the following before declaring the MVP complete.
+Template Library
+Selected templates are visible. 
+Templates display correct thumbnails. 
+Template names and dimensions are correct. 
+Selecting a template opens the correct project. 
+Editor
+Text can be selected and edited. 
+Text can be moved. 
+Font size and alignment work. 
+Images can be replaced. 
+Images can be repositioned. 
+Logo visibility and movement work. 
+Footer visibility and movement work. 
+Layers remain in correct order. 
+Undo and redo work. 
+Reset works. 
+Upload
+Supported image upload works. 
+Uploaded raster images are not misrepresented as layered designs. 
+Supported structured template import preserves editable layers. 
+Invalid files display errors. 
+Preview and Export
+Preview matches canvas. 
+Exported dimensions are correct. 
+PNG downloads successfully. 
+JPG downloads successfully. 
+Hidden layers are excluded. 
+No editing handles appear in exports. 
+Font rendering is verified. 
+Image assets appear in exported files. 
+Reliability
+Refresh does not unexpectedly erase saved work. 
+All imported templates use the shared editor architecture. 
+No critical browser errors remain. 
+Production build passes. 
+Demo works without a runtime Figma connection. 
+
+20. MVP Definition of Done
+The MVP is complete when:
+The application opens to a working template library.
+The selected Figma templates are represented accurately.
+All claimed editable templates support core text/image editing.
+Users can reposition design elements.
+Users can manage logos and footers.
+Live preview reflects modifications.
+Users can upload supported custom content.
+Users can export a usable high-quality PNG/JPG.
+Projects remain usable after refresh.
+The complete application works without Figma MCP running.
+Automated tests and manual critical-path tests pass.
+The stakeholder demonstration works from start to finish.
+A static screenshot gallery does not meet the Definition of Done.
+A template card that opens an uneditable flattened poster must not be described as an editable template.
+If a requirement remains incomplete, report it explicitly instead of marking the product as finished.
+
+21. Stakeholder Demonstration Scenario
+This scenario should be fully operational in the MVP.
+Scenario: Arnifi's marketing team needs a new Instagram post promoting business setup in Dubai.
+Demonstration Steps
+Step 1: Open Arnifi Marketing Studio.
+Show the centralized template library.
+Step 2: Select a professional Instagram poster.
+Explain that the original design was prepared by Arnifi's designers in Figma.
+Step 3: Open the editor.
+Show the original layout and editable layers.
+Step 4: Change the heading.
+For example, replace the existing copy with:
+"Start your business in Dubai"
+Step 5: Update the supporting description.
+Show the live canvas responding to the edit.
+Step 6: Replace the image.
+Upload another relevant business image.
+Step 7: Adjust positioning.
+Move the heading slightly upward and align it correctly.
+Step 8: Manage brand elements.
+Show how the logo can be repositioned and the footer can be hidden or restored.
+Step 9: Preview the final design.
+Demonstrate that the result looks like a professional Arnifi poster.
+Step 10: Export the image.
+Download a PNG and open the finished output.
+Message to Stakeholders
+"Previously, creating or modifying these posts required repeated involvement from the design team. With Arnifi Marketing Studio, the marketing team can use approved templates, edit the content independently, and export a brand-consistent creative in minutes."
+The prototype demonstrates the proposed workflow. Actual time savings must be measured during user testing.
+
+22. Risks, Assumptions and Dependencies
+Risk
+Mitigation
+Figma metadata is incomplete
+Use frame screenshots, node inspection, and manual reconstruction when necessary
+Complex effects cannot be translated into editable canvas objects
+Flatten only the affected decorative layers
+Text rendering differs from Figma
+Verify fonts, weights, line heights, and text box dimensions
+Too many similar templates selected
+Apply the diversity and reusability selection criteria
+Twenty templates take longer to validate
+Build one reusable engine; complete representative templates first
+Asset URLs expire
+Save authorized assets within the application
+Users accidentally break layouts
+Provide undo, reset, and clear selection controls
+Imported flat images are not editable
+Explain limitations and allow new editable overlays
+Local storage is lost or unavailable
+Add error handling and optional project-file export in a later iteration
+Main Dependency
+The quality and editability of imported templates depend on how the original designs are structured in Figma.
+Well-organized frames with separate text, images, and brand elements will generally be easier to reproduce than flattened designs.
+
+23. Future Version — Figma-Connected Template System
+V2 should expand the MVP into an ongoing template management platform.
+Proposed V2 Capabilities
+Connect a Figma source from within the app using an appropriate authorized integration.
+Discover available template frames.
+Import selected designs.
+Extract and convert supported layers.
+Preview imported templates.
+Review conversion warnings.
+Approve and publish templates.
+Detect available Figma design updates.
+Maintain template versions.
+Provide a shared template library.
+Long-Term Product Vision
+Figma becomes the design source of truth, while Arnifi Marketing Studio becomes the self-service content production interface.
+Designers maintain approved designs; marketing team members customize and export them.
+These are future requirements and must not complicate the MVP architecture unnecessarily.
+
+24. Explicit Instructions for Claude Code
+You are acting as the product's engineering implementation team.
+Your objective is to build a functioning, high-quality MVP of Arnifi Marketing Studio following this PRD.
+Mandatory Working Rules
+Rule 1 — Inspect before implementing
+Inspect the existing repository, design system, Figma MCP access, and available Figma source before making architectural decisions.
+Rule 2 — Reuse the existing design system
+The Arnifi design system has already been supplied. Do not create a competing design language or arbitrarily replace its components, tokens, fonts, or conventions.
+Rule 3 — Treat Figma as the source of truth
+Do not invent the 20 poster designs. Select actual source frames and preserve their references.
+Rule 4 — Build a real editor
+Do not present flattened posters as fully editable. Implement an actual layered editing model.
+Rule 5 — Build reusable architecture
+Do not hardcode separate editors for each template. Use shared canvas, layer, state, and export systems.
+Rule 6 — Keep the MVP scope controlled
+Do not add authentication, AI image generation, billing, publishing, or unnecessary backend services.
+Rule 7 — Implement in dependency order
+Build and validate a representative template and the full editing/export journey before scaling to the entire gallery.
+Rule 8 — Test what you build
+Run the application's tests, check the browser behavior, and verify actual exported files.
+Rule 9 — Handle failures transparently
+If Figma access, font assets, source layers, or permissions are missing, report precisely what is missing. Continue with independent tasks when possible.
+Never fabricate a successful extraction, export, or test.
+Rule 10 — Make the project understandable
+The product owner is a designer without technical coding experience.
+Use plain-language progress reports and provide straightforward instructions for starting, testing, and using the app.
+Required Development Outputs
+At the end, provide:
+A working web application.
+An inventory of the selected Figma templates.
+The reusable template data model.
+The functioning editor and export workflow.
+Test results and known limitations.
+Instructions for running the app.
+A stakeholder demonstration checklist.
+A concise list of incomplete or deferred requirements, if any.
+Recommended Execution Order
+First: Inspect the project and Figma sources.
+Second: Inventory and rank eligible templates.
+Third: Establish the editable template data model.
+Fourth: Build a complete editing and export journey using one real template.
+Fifth: Import and validate the remaining selected templates.
+Sixth: Test and polish the application for stakeholder demonstration.
+Do not stop after producing a plan or screenshots. Implement the application, run it, and validate the core workflow wherever the development environment allows.
+
+25. Final Product Outcome
+Arnifi Marketing Studio should demonstrate a simple but valuable concept:
+One centralized place where Arnifi's teams can select professionally designed templates, customize their content, and produce brand-consistent marketing creatives without repeatedly relying on designers.
+The MVP succeeds when stakeholders can see that the process is simpler, the output quality is maintained, and the system has a clear path toward a scalable Figma-connected marketing design platform.
